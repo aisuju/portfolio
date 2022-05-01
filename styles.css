@@ -1,0 +1,275 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 29, 2022, 5:53:19 AM
+    Author     : Vivi
+*/
+body {
+    background-color: #d4c8b4;
+    margin: 0;
+}
+h1 {
+    font-size: 70px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 22px;
+    color: #1f1b1b;
+    letter-spacing: 2px;
+    font-family: trebuchet ms;
+    font-weight: bold;
+}
+h6 {
+    font-size: 28px;
+    color: #1f1b1b;
+    letter-spacing: 2px;
+    font-family: trebuchet ms;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 50px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+h5 {
+    margin-top: 0;
+    font-size: 50px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1%;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #1f1b1b;
+    text-align: center;
+    padding: 26px 20px;
+    font-family: trebuchet ms;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.topnav a:hover {
+    color: #a89051;
+}
+.topnav a.active {
+    color: #a89051;
+}
+.topnav-right {
+    margin-right: 5%;
+    float: right;
+}
+.about {
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.columnA{
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width:600px) {
+    .columnA {
+        width:100%;
+    }
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.aboutme {
+    margin-top: 10%;
+}
+.paragraph {
+    color: #1f1b1b;
+    margin-right: 10%;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+}
+ul {
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+}
+.links {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+.columnB {
+    float: left;
+    width: 33%;
+}
+@media screen and (max-width:600px) {
+    .columnB {
+        width:100%;
+    }
+}
+.container {
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+.btn {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 75px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.btn1{
+    background: #947859;
+}
+.btn2{
+    background: #b59e7f;
+}
+.btn3{
+    background: #4a4137;
+}
+.btn:hover {
+    color: #292624;
+    background: #9e958b;
+}
+.columnC {
+    float: left;
+    width: 25%;
+}
+@media screen and (max-width:600px) {
+    .columnC {
+        width:100%;
+    }
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #1f1b1b;
+    padding: 40px 40px;
+    font-family: trebuchet ms;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.download {
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background-color: #947859;
+    color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 3%;
+}
+.download:hover {
+    color: #292624;
+    background: #9e958b;
+}
+.centered {
+    text-align: center;
+}
+.section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+p {
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+    text-decoration: none;
+}
+.columnG {
+    float: left;
+    width: 33%;
+}
+.columnG2 {
+    text-align: right;
+}
+@media screen and (max-width:600px) {
+    .columnG {
+        width:100%;
+    }
+}
+.talk {
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    margin: 10px;
+}
+.talk:hover {
+    color: #292624;
+    background: #f2e4b8;
+}
+.talk2 {
+        background-color: #b0a37b;
+}
+.talk3 {
+        background-color: #47370a;
+}
+.talk4 {
+        background-color: #6b603f;
+}
+.columnZ {
+    float: left;
+    width: 33%;
+}
+@media screen and (max-width:600px) {
+    .columnZ {
+        width:100%;
+    }
+}
+.portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.alightleft {
+    margin-left:10%;
+    float: left;
+    text-decoration: none;
+}
+.alignright {
+    margin-right:10%;
+    float: right;
+    text-align:right;
+}
