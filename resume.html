@@ -9,6 +9,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <title>Resume</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javascript.js"></script>
     </head>
     <body>
         <div class="topnav">
@@ -19,11 +20,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 <a href="contact.html">contact</a>
             </div>
         </div>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
+        <button onclick="location.href='VivianVu-Resume.pdf','_blank'" id ="myBtnn">download pdf</button>
+        
         <h3>RESUME</h3>
-        <div class="centered">
-            <button onclick ="location.href='VivianVu-Resume.pdf','_blank'" class="download">DOWNLOAD & PDF VERSION</button>
+        <div class ="centered">
+            <button onclick ="location.href='#education'" class="skip skip1">education</button>
+            <button onclick ="location.href='#projects'" class="skip skip2">projects</button>  
+            <button onclick ="location.href='#skills'" class="skip skip3">skills</button>
+            <button onclick ="location.href='#download'" class="skip skip4">download pdf</button>  
         </div>
-        <div class ="section">
+        <br><br>
+        <div class ="section" id="education">
             <div class="row">
                 <div class="columnG columnG2">
                     <h2><strong>Education</strong></h2>    
@@ -42,18 +51,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                         <ul>
                             <li>English I & II</li>
                             <li>Craft of the Argument</li>
-                            <li>Interdisciplinary Web Design</li><!-- comment -->
-                            <li>Programming I & II</li><!-- comment -->
-                            <li>Data Structures</li><!-- comment -->
+                            <li>Interdisciplinary Web Design</li>
+                            <li>Programming I & II</li>
+                            <li>Data Structures</li>
                             <li>Software Development</li>
                             <li>Computer Systems</li>
-                            <li>Theory of Computation</li><!-- comment -->
+                            <li>Theory of Computation</li>
                             <li>Discrete Structures</li>
                         </ul>
                 </div>
             </div>
         </div>
-        <div class ="section">
+        <div class ="section" id="projects">
             <div class="row">
                 <div class="columnG columnG2">
                     <h2><strong>Projects</strong></h2>    
@@ -108,7 +117,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 </div>
             </div>
         </div>
-        <div class ="section">
+        <div class ="section" id="skills">
             <div class="row">
                 <div class="columnG columnG2">
                     <h2><strong>Skills and Qualifications</strong></h2>    
@@ -141,7 +150,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                 </div>
             </div>
         </div>
-        <br>
+        <br><br><br><br>
+        <div class="centered" id="download">
+            <button onclick ="location.href='VivianVu-Resume.pdf','_blank'" class="download">DOWNLOAD & PDF VERSION</button>
+        </div>
+        <br><br><br><br>
         <footer>
             <div class="row">
                 <div class ="columnC"><strong>Phone</strong>
