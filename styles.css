@@ -84,11 +84,6 @@ h5 {
     float: left;
     width: 50%;
 }
-@media screen and (max-width:600px) {
-    .columnA {
-        width:100%;
-    }
-}
 .row:after {
     content: "";
     display: table;
@@ -96,10 +91,10 @@ h5 {
 }
 .aboutme {
     margin-top: 10%;
+    margin-right: 5%;
 }
 .paragraph {
     color: #1f1b1b;
-    margin-right: 10%;
     font-family: trebuchet ms;
     font-size: 15px;
     line-height: 2;
@@ -118,11 +113,6 @@ ul {
 .columnB {
     float: left;
     width: 33%;
-}
-@media screen and (max-width:600px) {
-    .columnB {
-        width:100%;
-    }
 }
 .container {
     margin-top: 40%;
@@ -165,11 +155,6 @@ ul {
 .columnC {
     float: left;
     width: 25%;
-}
-@media screen and (max-width:600px) {
-    .columnC {
-        width:100%;
-    }
 }
 footer {
     left: 0;
@@ -223,11 +208,6 @@ p {
 .columnG2 {
     text-align: right;
 }
-@media screen and (max-width:600px) {
-    .columnG {
-        width:100%;
-    }
-}
 .talk {
     border: none;
     border-radius: 12px;
@@ -260,15 +240,10 @@ p {
     float: left;
     width: 33%;
 }
-@media screen and (max-width:600px) {
-    .columnZ {
-        width:100%;
-    }
-}
 .portfolio {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .alightleft {
     margin-left:10%;
@@ -362,21 +337,20 @@ p {
 }
 #topbutton1 {transition-timing-function: ease;}
 #downloadB {
-    bottom: 2%;
-    right: 7%;
+    top: 10%;
+    right: -1%;
     position: fixed;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+    width: 200px;
+    height: 30px;
+    border-radius: 10%;
     border: none;
     outline: none;
     background-color: #999990;
     color: #0f0f08;
     cursor: pointer;
-    padding: 13px;
     font-size: 13px;
     font-family: trebuchet ms;
-    font-weight: bold;
+    font-weight: bolder;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     transition: width 1s, height 1s, transform 1s;
 }
@@ -384,7 +358,40 @@ p {
 #downloadB:hover {
     background-color:#1c180c;
     color: #ffffff;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
+    width: 300px;
+    height: 35px;
+    border-radius: 10%;
+}
+@media screen and (max-width:600px) {
+    .columnA {
+        width:100%;
+    }
+    #me {
+        height: 98%;
+        width: 98%;
+    }
+    .about {
+        margin: 5%;
+    }
+    .links {
+        margin: 0%;
+    }
+    .aboutme {
+        margin: 0%;
+    }
+    .portfolio {
+        margin: 1%;
+    }
+     .columnZ {
+        width:100%;
+    }
+    .columnG {
+        width:100%;
+    }
+    .columnC {
+        width:100%;
+    }
+    .section {
+        margin: 5%;
+    }
 }
