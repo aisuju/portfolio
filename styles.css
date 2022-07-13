@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 h1 {
-    font-size: 70px;
+    font-size: 45px;
     color: #1f1b1b;
     font-family: trebuchet ms;
     letter-spacing: 10px;
@@ -447,7 +447,7 @@ p {
     display: inline-block;
     padding: 8px;
     color: #edeae4;
-    background-color: #2f2e30;
+    background-color: #4a270a;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -542,7 +542,7 @@ p {
 .kip1 {
     text-decoration: none;
     color: white;
-    background-color: #6b6860;
+    background-color: #5c2d17;
 }
 .kip2 {
     text-decoration: none;
@@ -562,7 +562,7 @@ p {
 .kip5 {
     text-decoration: none;
     color: white;
-    background-color: #4d4327;
+    background-color: #36250b;
 }
 .kip:hover {
     color: #0d0404;
