@@ -300,8 +300,8 @@ p {
     border: none;
     border-radius: 50%;
     outline: none;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
     font-family: trebuchet ms;
     font-size: 11px;
@@ -321,6 +321,9 @@ p {
     transition-timing-function: ease;
 }
 #skip4 {
+    transition-timing-function: ease;
+}
+#skip5 {
     transition-timing-function: ease;
 }
 .decoration {
@@ -350,6 +353,11 @@ p {
     text-decoration: none;
     color: white;
     background-color: #4d4845;
+}
+.skip5 {
+    text-decoration: none;
+    color: white;
+    background-color: #7a776f;
 }
 .skip:hover {
     color: #0d0404;
